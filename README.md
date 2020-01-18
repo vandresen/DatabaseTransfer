@@ -1,4 +1,4 @@
-# DatabaseTransfer
+# Database Transfer
 Database Transfer is a free, open source web based tool to transfer data from a PPDM database to another
 
 License

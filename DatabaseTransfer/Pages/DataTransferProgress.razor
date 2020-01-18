@@ -1,0 +1,16 @@
+﻿@page "/DataTransferProgress"
+
+<p>
+    <button @onclick="StartDatabaseTransfer">Start transfer</button>
+</p>
+
+<div class="progress">
+    <div class="progress-bar"
+         role="progressbar"
+         style="width: @BarWidth"
+         aria-valuenow="80"
+         aria-valuemin="0"
+         aria-valuemax="100">
+        @BarWidth
+    </div>
+</div>
